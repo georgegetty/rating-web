@@ -88,6 +88,7 @@ module.exports = {
       'Access-Control-Allow-Origin': '*',
     },
     host: '0.0.0.0',
+    port:443,
     disableHostCheck: true,
     before(app) {
       app.use((req, res, next) => {
