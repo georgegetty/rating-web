@@ -89,7 +89,6 @@ module.exports = {
     },
     host: '0.0.0.0',
     disableHostCheck: true,
-    port: 8080,
     before(app) {
       app.use((req, res, next) => {
         console.log(`ENV API: `, process.env.API);
